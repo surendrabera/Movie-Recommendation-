@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
-df=pd.read_csv("/movie_data.csv")
-si_data=pd.read_csv("/similarity_dataframe")
+df=pd.read_csv("movie_data.csv")
+si_data=pd.read_csv("similarity_dataframe")
 
 def movie_display_all(index):      
     name=df['Name'][index]
